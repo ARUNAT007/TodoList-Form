@@ -1,0 +1,47 @@
+button:hover{
+    cursor: pointer;
+    background-color:tomato;
+}
+td:hover{
+    cursor: pointer;
+    transform-style: preserve-3d;
+}
+body {
+  height: fit-content;
+  width: 500px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  margin-left: 490px;
+  margin-top: 150px;
+  font-family: Arial, sans-serif;
+  background-image: url("download.jpeg");
+  background-size: 200%;
+  background-repeat:no-repeat;
+  align-items: center;
+  padding: 20px;
+}
+
+.output-table {
+  width: 70%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+.output-table th,
+.output-table td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.delete-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+h2{
+    text-decoration: underline;
+}
